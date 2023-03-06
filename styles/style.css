@@ -24,6 +24,7 @@ a {
 body {
     font-family: 'Playfair';
     user-select: none;
+    background: red;
 }
 
 .title {
