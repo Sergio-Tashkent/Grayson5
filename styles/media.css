@@ -8,16 +8,51 @@
     .container { 
         max-width: 720px; 
     }
+
+    .header__nav .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__logo {
+        margin-right: 19px;
+    }
+
+    .header__form {
+        margin-top: 20px;
+    }
 }
 
 @media(max-width: 760px){
     .container { 
         max-width: 540px; 
     }
+
+    .header__logo {
+        margin-bottom: 10px;
+    }
+    
+    .header__dropdown {
+        top: 98px;
+    }
+
+    .header__list {
+        column-gap: 41px;
+    }
 }
 
 @media(max-width: 576px){
     .container { 
         max-width: auto; 
+    }
+
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .header__list {
+        column-gap: 20px;
     }
 }
